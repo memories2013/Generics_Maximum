@@ -7,16 +7,16 @@ public class TestMaximum {
 		Maximum max = new Maximum();
 		Scanner scan = new Scanner(System.in);
 		
-		System.out.print("Enter First Number: ");
-		int first = scan.nextInt();
+		System.out.print("Enter First Value: ");
+		float first = scan.nextFloat();
 		
-		System.out.print("Enter Second Number: ");
-		int second = scan.nextInt();
+		System.out.print("Enter Second Value: ");
+		float second = scan.nextFloat();
 		
-		System.out.print("Enter Third Number: ");
-		int third = scan.nextInt();
+		System.out.print("Enter Third Value: ");
+		float third = scan.nextFloat();
 		
-		max.maxInt(first,second,third);
+		max.maxFloat(first,second,third);
 				
 	}
 }
