@@ -31,7 +31,8 @@ public class Maximum <T extends Comparable<T>> {
 	}
 	
 	public void findMax() {
-		findMax(this.first, this.second, this.third,this.fourth,this.fifth);
+		T max = findMax(this.first, this.second, this.third,this.fourth,this.fifth);
+		printMax(max);
 		
 	}
 	
@@ -42,5 +43,9 @@ public class Maximum <T extends Comparable<T>> {
 		this.third = third;
 		this.fourth= fourth;
 		this.fifth = fifth;
+	}
+	
+	public void printMax(T max) {
+		System.out.println("Maximum Value: "+max);
 	}
 }
